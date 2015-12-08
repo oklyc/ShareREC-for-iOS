@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.libraries        = 'icucore', 'z.1.2.5', 'stdc++',
   s.frameworks =  'javascriptcore'
 
-  s.vendored_frameworks = 'libraries/ShareREC.framework','libraries/ShareRECSocial.framework'
-  s.resources = 'libraries/ShareREC.bundle','libraries/ShareRECSocial.bundle','libraries/en.lproj','libraries/zh-Hans.lproj'
+  s.vendored_frameworks = 'ShareREC/ShareREC.framework','ShareREC/ShareRECSocial.framework'
+  s.resources = 'ShareREC/ShareREC.bundle','ShareREC/ShareRECSocial.bundle','ShareREC/en.lproj','ShareREC/zh-Hans.lproj'
 
 end
