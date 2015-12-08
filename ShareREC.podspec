@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.platform         = :ios
   s.ios.deployment_target = "6.0"
   s.libraries        = 'icucore', 'z.1.2.5', 'stdc++',
-  s.frameworks =  'javascriptcore'
+  s.frameworks =  'JavaScriptCore'
 
   s.vendored_frameworks = 'ShareREC/ShareREC.framework','ShareREC/ShareRECSocial.framework'
   s.resources = 'ShareREC/ShareREC.bundle','ShareREC/ShareRECSocial.bundle','ShareREC/en.lproj','ShareREC/zh-Hans.lproj'
