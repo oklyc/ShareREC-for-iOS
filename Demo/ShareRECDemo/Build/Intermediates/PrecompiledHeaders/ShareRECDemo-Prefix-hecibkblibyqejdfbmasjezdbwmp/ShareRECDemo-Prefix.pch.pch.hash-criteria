@@ -1,0 +1,30 @@
+-x
+objective-c
+-arch
+arm64
+-std=gnu99
+-fobjc-arc
+-fmodules
+-gmodules
+-fmodules-cache-path=/Users/liyc/Library/Developer/Xcode/DerivedData/ModuleCache
+-fpascal-strings
+-O0
+-DDEBUG=1
+-isysroot
+/Applications/Xcode 3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk
+-miphoneos-version-min=6.0
+-g
+-fembed-bitcode-marker
+-iquote
+-iquote
+-I/Users/liyc/Documents/Release/1_1_5/ShareRECDemo/Build/Products/Debug-iphoneos/include
+-F/Users/liyc/Documents/Release/1_1_5/ShareRECDemo/Build/Products/Debug-iphoneos
+-F/Users/liyc/Documents/Release/1_1_5/ShareRECDemo/../ShareREC
+-F/Users/liyc/Downloads/v3.1.1/libraries/extends/GooglePlusSDK
+-F/Users/liyc/Downloads/v3.1.1/libraries/extends/QQSDK
+-F/Users/liyc/Downloads/v3.1.1/libraries/extends/RenRenSDK
+-F/Users/liyc/Downloads/v3.1.1/libraries
+aarch64-apple-darwin14.5.0
+"4.2.1 Compatible Apple LLVM 7.0.0 (clang-700.0.72)"
+SDK_PRODUCT_BUILD_VERSION=13A340
+13A340
