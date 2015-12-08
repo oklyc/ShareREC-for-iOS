@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author           = { "Yongchao Li" => "ok_lyc@126.com" }
 
   s.homepage         = 'http://www.mob.com'
-  s.source           = { :git => "https://github.com/ShareSDKPlatform/ShareSDK.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/oklyc/ShareREC-for-iOS.git", :tag => s.version.to_s }
   s.platform         = :ios
   s.ios.deployment_target = "6.0"
   s.libraries        = 'icucore', 'z.1.2.5', 'stdc++',
